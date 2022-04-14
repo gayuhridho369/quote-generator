@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="header">
+            <h1>QUOTE GENERATOR</h1>
+        </div>
+        <div class="body">
+            <div class="quote">
+                <i class="fas fa-quote-left"></i>
+                <p class="text" id="quoteText"></p>
+                <p class="author" id="quoteAuthor"></p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="utils">
+                <i class="fas fa-volume-up" id="speakIcon"></i>
+                <i class="fas fa-copy" id="copyIcon"></i>
+                <i class="fab fa-twitter" id="twitterIcon"></i>
+            </div>
+            <div class="form">
+                <form>
+                    <div class="form-select">
+                        <label for="tag">#</label>
+                        <div class="select-option">
+                            <select name="tag" id="tagSelect">
+                                <option class="option" value="random">random</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="quoteNext">NEXT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
